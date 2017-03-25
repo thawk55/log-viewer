@@ -5,15 +5,29 @@
         <title>Log Viewer</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/webjars/bootstrap/3.3.6/css/bootstrap.css">
         <link rel="stylesheet" href="/css/app.css">
     </head>
     <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Log Viewer</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#/logs">Logs</a></li>
+                    <li><a href="#/add">Add Logs</a></li>
+                </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
         <div ng-view></div>
         <script src="/webjars/angularjs/1.4.9/angular.js"></script>
         <script src="/webjars/angularjs/1.4.9/angular-resource.js"></script>
         <script src="/webjars/angularjs/1.4.9/angular-route.js"></script>
         <script src="/js/app.js"></script>
         <script src="/js/controller.js"></script>
-        <link rel="stylesheet" href="/webjars/bootstrap/3.3.6/css/bootstrap.css">
+        
     </body>
 </html>
