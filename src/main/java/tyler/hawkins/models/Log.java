@@ -1,39 +1,30 @@
 package tyler.hawkins.models;
 
-import java.math.BigInteger;
-
-
 public class Log {
-    private short id;
-    private String version;
-    private String channel;
+    private int id;
     private String level;
-    private String opcode;
-    private short task;
-    private BigInteger keyword;
+    private String dateTime;
+    private String source;
+    private int eventId;
+    private String taskCategory;
+    private String info;
 
-    public short getId() {
+    public Log(int id, String level, String dateTime, String source, int eventId, String taskCategory, String info) {
+        this.id = id;
+        this.level = level;
+        this.dateTime = dateTime;
+        this.source = source;
+        this.eventId = eventId;
+        this.taskCategory = taskCategory;
+        this.info = info;
+    }
+
+    public int getId() {
         return id;
     }
 
-    public void setId(short id) {
+    public void setId(int id) {
         this.id = id;
-    }
-
-    public String getVersion() {
-        return version;
-    }
-
-    public void setVersion(String version) {
-        this.version = version;
-    }
-
-    public String getChannel() {
-        return channel;
-    }
-
-    public void setChannel(String channel) {
-        this.channel = channel;
     }
 
     public String getLevel() {
@@ -44,38 +35,44 @@ public class Log {
         this.level = level;
     }
 
-    public String getOpcode() {
-        return opcode;
+    public String getDateTime() {
+        return dateTime;
     }
 
-    public void setOpcode(String opcode) {
-        this.opcode = opcode;
+    public void setDateTime(String dateTime) {
+        this.dateTime = dateTime;
     }
 
-    public short getTask() {
-        return task;
+    public String getSource() {
+        return source;
     }
 
-    public void setTask(short task) {
-        this.task = task;
+    public void setSource(String source) {
+        this.source = source;
     }
 
-    public BigInteger getKeyword() {
-        return keyword;
+    public int getEventId() {
+        return eventId;
     }
 
-    public void setKeyword(BigInteger keyword) {
-        this.keyword = keyword;
+    public void setEventId(int eventId) {
+        this.eventId = eventId;
     }
 
-    public Log(short id, String version, String channel, String level, String opcode, short task, BigInteger keyword) {
-        this.id = id;
-        this.version = version;
-        this.channel = channel;
-        this.level = level;
-        this.opcode = opcode;
-        this.task = task;
-        this.keyword = keyword;
+    public String getTaskCategory() {
+        return taskCategory;
+    }
+
+    public void setTaskCategory(String taskCategory) {
+        this.taskCategory = taskCategory;
+    }
+
+    public String getInfo() {
+        return info;
+    }
+
+    public void setInfo(String info) {
+        this.info = info;
     }
 
     @Override
@@ -86,24 +83,24 @@ public class Log {
         Log log = (Log) o;
 
         if (id != log.id) return false;
-        if (task != log.task) return false;
-        if (version != null ? !version.equals(log.version) : log.version != null) return false;
-        if (channel != null ? !channel.equals(log.channel) : log.channel != null) return false;
+        if (eventId != log.eventId) return false;
         if (level != null ? !level.equals(log.level) : log.level != null) return false;
-        if (opcode != null ? !opcode.equals(log.opcode) : log.opcode != null) return false;
-        return keyword != null ? keyword.equals(log.keyword) : log.keyword == null;
+        if (dateTime != null ? !dateTime.equals(log.dateTime) : log.dateTime != null) return false;
+        if (source != null ? !source.equals(log.source) : log.source != null) return false;
+        if (taskCategory != null ? !taskCategory.equals(log.taskCategory) : log.taskCategory != null) return false;
+        return info != null ? info.equals(log.info) : log.info == null;
 
     }
 
     @Override
     public int hashCode() {
-        int result = (int) id;
-        result = 31 * result + (version != null ? version.hashCode() : 0);
-        result = 31 * result + (channel != null ? channel.hashCode() : 0);
+        int result = id;
         result = 31 * result + (level != null ? level.hashCode() : 0);
-        result = 31 * result + (opcode != null ? opcode.hashCode() : 0);
-        result = 31 * result + (int) task;
-        result = 31 * result + (keyword != null ? keyword.hashCode() : 0);
+        result = 31 * result + (dateTime != null ? dateTime.hashCode() : 0);
+        result = 31 * result + (source != null ? source.hashCode() : 0);
+        result = 31 * result + eventId;
+        result = 31 * result + (taskCategory != null ? taskCategory.hashCode() : 0);
+        result = 31 * result + (info != null ? info.hashCode() : 0);
         return result;
     }
 
@@ -111,12 +108,12 @@ public class Log {
     public String toString() {
         return "Log{" +
                 "id=" + id +
-                ", version='" + version + '\'' +
-                ", channel='" + channel + '\'' +
                 ", level='" + level + '\'' +
-                ", opcode='" + opcode + '\'' +
-                ", task=" + task +
-                ", keyword=" + ((keyword == null) ? "null" : keyword.toString()) +
+                ", dateTime='" + dateTime + '\'' +
+                ", source='" + source + '\'' +
+                ", eventId=" + eventId +
+                ", taskCategory='" + taskCategory + '\'' +
+                ", info='" + info + '\'' +
                 '}';
     }
 }

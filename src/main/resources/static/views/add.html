@@ -1,6 +1,40 @@
 <section id="add">
-    <h3>add</h3>
-    <div>
-        
-    </div>
+    <form>
+      <div>
+        <label>Level</label> 
+        <input type="text" ng-model="level">
+      </div>
+      <div>
+        <label>Date and Time</label> 
+        <input type="text" ng-model="dateTime">
+      </div>
+      <div>
+        <label>Source</label>
+        <input type="text" ng-model="source">
+      </div>
+      <div>
+        <label>Event ID</label>
+        <input type="number" ng-model="eventId">
+      </div>
+      <div>
+        <label>Task Category</label>
+        <input type="text" ng-model="taskCategory">
+      </div>
+      <div>
+        <label>Log</label>
+        <textarea ng-model="info"></textarea>
+      </div>
+      <button class="btn btn-primary" ng-click="addLog()" type="submit">Add Log</button>
+    </form>
+
+
+    <div class="upload">
+      <div>
+        <div class="btn btn-primary btn-file">
+            Upload CSV <input type="file" file/>
+        </div>
+        <span> {{file.name}} </span>
+      </div>
+      <!--<button ng-hide="true" class="btn btn-primary" ng-click="uploadCSV(file)">Upload CSV</button>-->
+  	</div>
 </section>

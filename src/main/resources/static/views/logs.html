@@ -1,6 +1,7 @@
 <section id="logs">
-    <h3>Logs</h3>
-    <div>
-        
+    <input ng-model="searchWord" placeholder="searchLogs">
+    <button class="btn btn-default" ng-click="search()">Search</button>
+    <div class="logs" ng-repeat="log in logs">
+        {{log}}
     </div>
 </section>
