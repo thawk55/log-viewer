@@ -18,7 +18,7 @@ public class LogViewerDAO {
 
     public Log getLog(short id){
         String sql = String.format(
-            " SELECT id, level, datetime, source, eventId, taskCategory, info " +
+            " SELECT id, level, date_time, source, event_id, task_category, info " +
             " FROM %s WHERE id = ?", tableName);
 
 
@@ -37,12 +37,13 @@ public class LogViewerDAO {
         return log;
     }
 
-    public ArrayList<Log> getLogs(int limit, int skip){
+    public ArrayList<Log> getLogs(String search, int limit, int skip){
+        String whereClause = parseSearch(search);
 
         String sql = String.format(
-                " SELECT id, level, datetime, source, eventId, taskCategory, info " +
-                " FROM %s" +
-                " LIMIT %d, %d", tableName, skip, limit);
+                " SELECT id, level, date_time, source, event_id, task_category, info " +
+                " FROM %s %s" +
+                " LIMIT %d, %d", tableName, whereClause, skip, limit);
         ArrayList<Log> logs = new ArrayList<>();
         try (Connection conn = dataSource.getConnection(); PreparedStatement ps = conn.prepareStatement(sql)) {
             ResultSet rs = ps.executeQuery();
@@ -60,7 +61,7 @@ public class LogViewerDAO {
     public Log insert(NewLog log){
 
         String sql = String.format(
-            "INSERT INTO %s (level, datetime, source, eventId, taskCategory, info) " +
+            "INSERT INTO %s (level, date_time, source, event_id, task_category, info) " +
             "VALUES (?, ?, ?, ?, ?, ?)", tableName);
 
         short newId = 0;
@@ -102,17 +103,68 @@ public class LogViewerDAO {
         return success;
     }
 
-    private Log parseLog(ResultSet rs) throws SQLException {
-        return new Log(
-            rs.getInt("id"),
-            rs.getString("level"),
-            rs.getString("dateTime"),
-            rs.getString("source"),
-            rs.getInt("eventId"),
-            rs.getString("taskCategory"),
-            rs.getString("info")
-        );
+    private String getColumnSearch(String column, String query){
+        String columnName;
+        switch(column.trim().toLowerCase()){
+            case "level":
+                columnName = "level";
+                break;
+            case "datetime":
+            case "date and time":
+            case "date time":
+            case "date_time":
+                columnName = "date_time";
+                break;
+            case "source":
+                columnName = "source";
+                break;
+            case "eventid":
+            case "event":
+            case "event id":
+            case "event_id":
+                columnName = "event_id";
+                break;
+            case "taskcategory":
+            case "task category":
+            case "task":
+            case "category":
+            case "task_category":
+                columnName = "task_category";
+                break;
+            case "log":
+            case "info":
+                columnName = "info";
+                break;
+            default:
+                return "";
+        }
+        return String.format("AND %s COLLATE UTF8_GENERAL_CI LIKE '%%%s%%'", columnName, query.trim());
     }
 
+    private String parseSearch(String search) {
+        StringBuilder sb = new StringBuilder(" WHERE 1=1 ");
+        String[] searchTerms = search.split(";");
+        for(int i = 0; i < searchTerms.length; i++){
+            String[] parts = searchTerms[i].split(":");
+            if(parts.length != 2){
+                continue;
+            }
+            sb.append(getColumnSearch(parts[0], parts[1]));
+
+        }
+        return sb.toString();
+    }
+
+    private Log parseLog(ResultSet rs) throws SQLException {
+        return new Log(
+                rs.getInt("id"),
+                rs.getString("level"),
+                rs.getString("date_time"),
+                rs.getString("source"),
+                rs.getInt("event_id"),
+                rs.getString("task_category"),
+                rs.getString("info")
+        );
+    }
 
 }

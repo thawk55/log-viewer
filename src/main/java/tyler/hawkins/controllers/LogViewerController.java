@@ -14,14 +14,14 @@ public class LogViewerController {
     private LogViewerDAO dao = new LogViewerDAO(LogViewerDatasource.getDataSource());
 
     @RequestMapping(value = "/logs", method = RequestMethod.GET)
-    ArrayList<Log> getLogs(@RequestParam(value = "limit", required = false) Integer limit, @RequestParam(value = "skip", required = false) Integer skip) {
+    ArrayList<Log> getLogs(@RequestParam(value = "search", required = false) String search, @RequestParam(value = "limit", required = false) Integer limit, @RequestParam(value = "skip", required = false) Integer skip) {
         if(limit == null){
             limit = Integer.MAX_VALUE;
         }
         if(skip == null){
             skip = 0;
         }
-        return dao.getLogs(limit, skip);
+        return dao.getLogs(search, limit, skip);
     }
 
     @RequestMapping(value = "/logs/{logId}", method = RequestMethod.GET)

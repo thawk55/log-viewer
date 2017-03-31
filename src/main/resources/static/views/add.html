@@ -33,7 +33,8 @@
         <div class="btn btn-primary btn-file">
             Upload CSV <input type="file" file/>
         </div>
-        <span> {{file.name}} </span>
+        <span ng-show="uploading"> File uploading </span>
+        <span ng-show="uploaded"> File uploaded </span>
       </div>
       <!--<button ng-hide="true" class="btn btn-primary" ng-click="uploadCSV(file)">Upload CSV</button>-->
   	</div>

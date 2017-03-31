@@ -1,5 +1,7 @@
 app.controller('addController', function($scope, $rootScope, logFactory) {
     $rootScope.route = 'add';
+    $scope.uploading = false;
+
     $scope.addLog = function(){
         var log = {
             level: $scope.level,
@@ -14,7 +16,9 @@ app.controller('addController', function($scope, $rootScope, logFactory) {
 
     var saveLog = function(log){
         logFactory.addLog(log).then(function(newLog){
-            console.log(newLog);
+            $scope.uploaded = true;
+            $scope.uploading = false;
+            $scope.file = null;
         }, function(err){
             console.error(err);
         });
@@ -26,6 +30,8 @@ app.controller('addController', function($scope, $rootScope, logFactory) {
 
     $scope.uploadCSV = function(file){
         if(file){
+            $scope.uploaded = false;
+            $scope.uploading = true;
 			var reader = new FileReader();
 
 			reader.onload = function(e) {
@@ -38,20 +44,68 @@ app.controller('addController', function($scope, $rootScope, logFactory) {
 		}
     }
 
+    var trimToComma = function(csv) {
+        var index = csv.indexOf(',');
+        if(index == -1){
+            return {
+                trimmed: csv,
+                remainder: ''
+            };
+        }
+        return {
+            trimmed: csv.substr(0, index),
+            remainder: csv.substr(index + 1)
+        };
+    };
+
+    var getInfo = function(csv) {
+        if(csv[0] == '"'){
+            var nextQuotePosition = csv.split('"', 2).join('"').length;
+            return {
+                info: csv.substr(0, nextQuotePosition),
+                remainder: csv.substr(nextQuotePosition + 2) //Get newLine
+            }
+        } else {
+            var lines = csv.split(/\r\n|\n|\r/);
+            info = lines[0];
+            lines.splice(0,1);
+            return {
+                info: info,
+                remainder: lines.join('\n')
+            }
+        }
+    };
+
     var parseCSV = function(text) {
+        //Info column is always in Double Quotes.
+
         //Remove the headers line
         var lines = text.split('\n');
         lines.splice(0,1);
-        var csv = lines.join('\n').split(',');
+        var csv = lines.join('\n');
         //Parse out the 6 columns
-        for(var i = 0; i < csv.length; i += 6){
+        while(csv.length > 0){
+            var columns = [];
+            for(var count = 0; count < 5; count++){
+                var result = trimToComma(csv);
+                columns.push(result.trimmed);
+                csv = result.remainder;
+            }
+            var level = columns[0].replace(/(\r\n|\n|\r)/gm, ""); // Remove any extra newlines.
+            var dateTime = columns[1];
+            var source = columns[2];
+            var eventId = parseInt(columns[3]);
+            var taskCategory = columns[4];
+            var infoResults = getInfo(csv);
+            var info = infoResults.info;
+            csv = infoResults.remainder;
             var log = {
-                level: csv[i],
-                dateTime: csv[i+1],
-                source: csv[i+2],
-                eventId: parseInt(csv[i+3]),
-                taskCategory: csv[i+4],
-                info: csv[i+5]
+                level: level, 
+                dateTime: dateTime, 
+                source: source, 
+                eventId: eventId, 
+                taskCategory: taskCategory, 
+                info: info, 
             }; 
             saveLog(log);
         }

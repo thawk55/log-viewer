@@ -1,7 +1,30 @@
 <section id="logs">
-    <input ng-model="searchWord" placeholder="searchLogs">
-    <button class="btn btn-default" ng-click="search()">Search</button>
-    <div class="logs" ng-repeat="log in logs">
-        {{log}}
-    </div>
+    <form>
+        <input ng-model="searchTerm" placeholder="Search for logs. Use the following notation: <column_type>:<search_word>; Example: level:Information; date and time:3/30;">
+        <button class="btn btn-default" ng-click="search()" type="submit">Search</button>
+    </form>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Level</th>
+                <th>Date and Time</th>
+                <th>Source</th>
+                <th>Event Id</th>
+                <th>Task Category</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="log in logs" ng-init="log.expanded = false" ng-click="log.expanded = !log.expanded">
+                <td>{{log.level}}</td>
+                <td>{{log.dateTime}}</td>
+                <td>{{log.source}}</td>
+                <td>{{log.eventId}}</td>
+                <td>{{log.taskCategory}}</td>
+                <td><span ng-class="log.expanded ? 'caret' : 'rotate-caret'"></span></td>
+                <div class="log" ng-show="log.expanded">{{log.info}}</div>
+            </tr>
+            
+        </tbody>
+    </table>
 </section>

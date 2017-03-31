@@ -1,9 +1,17 @@
 app.factory('logFactory', function($http, $q) {
   let api = 'http://localhost:8080/';
   return {
-    getLogs: function(search){
+    getLogs: function(search, limit, skip){
       var defer = $q.defer();
-      $http.get(api + 'logs').then(function(response){
+      var payload = {
+        params: {
+          search: search,
+          limit: limit,
+          skip: skip,
+        }
+      };
+      console.log(payload);
+      $http.get(api + 'logs', payload).then(function(response){
         defer.resolve(response.data);
       }, function(response){
         defer.reject(response.data);
