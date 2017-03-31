@@ -32,7 +32,18 @@
 
 #logs input:focus {
     outline: #498fff solid 1px;
+}
 
+#logs .log {
+    border: 1px solid #777;
+    border-radius: 4px;
+    background: #eee;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+#logs .log .logStats {
+    border-right: 1px solid #777;
 }
 
 /*Add Logs Code*/

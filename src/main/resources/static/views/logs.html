@@ -3,7 +3,34 @@
         <input ng-model="searchTerm" placeholder="Search for logs. Use the following notation: <column_type>:<search_word>; Example: level:Information; date and time:3/30;">
         <button class="btn btn-default" ng-click="search()" type="submit">Search</button>
     </form>
-    <table class="table table-striped">
+    <div class="row log" ng-repeat="log in logs">
+        <div class="col-md-4 logStats">
+            <div class="row">
+                <span class="col-md-4">Level</span>
+                <span class="col-md-8">{{log.level}}</span>
+            </div>
+            <div class="row">
+                <span class="col-md-4">Date and Time</span>
+                <span class="col-md-8">{{log.dateTime}}</span>
+            </div>
+            <div class="row">
+                <span class="col-md-4">Source</span>
+                <span class="col-md-8">{{log.source}}</span>
+            </div>
+            <div class="row">
+                <span class="col-md-4">Event Id</span>
+                <span class="col-md-8">{{log.eventId}}</span>
+            </div>
+            <div class="row">
+                <span class="col-md-4">Task Category</span>
+                <span class="col-md-8">{{log.taskCategory}}</span>
+            </div>
+        </div>
+        <div class="col-md-8">
+            {{log.info}}
+        </div>
+    </div>
+    <!--<table class="table table-striped">
         <thead>
             <tr>
                 <th>Level</th>
@@ -26,5 +53,5 @@
             </tr>
             
         </tbody>
-    </table>
+    </table>-->
 </section>

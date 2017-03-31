@@ -10,7 +10,6 @@ app.factory('logFactory', function($http, $q) {
           skip: skip,
         }
       };
-      console.log(payload);
       $http.get(api + 'logs', payload).then(function(response){
         defer.resolve(response.data);
       }, function(response){

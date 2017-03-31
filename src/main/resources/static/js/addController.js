@@ -59,8 +59,19 @@ app.controller('addController', function($scope, $rootScope, logFactory) {
     };
 
     var getInfo = function(csv) {
-        if(csv[0] == '"'){
-            var nextQuotePosition = csv.split('"', 2).join('"').length;
+        if (csv[0] == '"') {
+            var nextQuotePosition;
+            for (var i = 1; i < csv.length; i++) {
+                if (csv[i] == '"') {
+                    if (csv[i+1] != '"') {
+                        nextQuotePosition = i;
+                        break;
+                    } else {
+                        i++; //Skip the next quote.
+                    }
+                }
+            }
+            
             return {
                 info: csv.substr(0, nextQuotePosition),
                 remainder: csv.substr(nextQuotePosition + 2) //Get newLine
