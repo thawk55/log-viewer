@@ -1,9 +1,9 @@
 # log-viewer
 
 ## Dependencies
-Java
-Maven
-
+1. Java
+1. Maven
+1. MySQL
 
 ## Running
 To build the application run `mvn package`. This will create the jar inside of the `target` directory.
