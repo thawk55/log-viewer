@@ -1,0 +1,2486 @@
+﻿Level,Date and Time,Source,Event ID,Task Category
+Information,3/24/2017 10:14:43 AM,Windows Error Reporting,1001,None,"Fault bucket 127071574689, type 5
+Event Name: StoreAgentDownloadFailure1
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;taskhostw
+P2: 80070020
+P3: 14393
+P4: 105
+P5: Windows.Desktop
+P6: B
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Users\tyler\AppData\Local\Temp\FailureReportMetadata_20264.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERD9ED.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;taskhostw_84e9fbc648c282e23d7f553e913c17969d6a4_00000000_0e07d4d5
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 586d7545-10a7-11e7-bef8-a0999b163752
+Report Status: 0
+Hashed bucket: 69be04815a9b46bcd1b5466a89fb1e23"
+Information,3/24/2017 10:14:27 AM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,3/24/2017 10:14:27 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2017-03-25T16:13:26Z. Reason: RulesEngine.
+Error,3/24/2017 10:13:56 AM,Microsoft-Windows-Security-SPP,8198,None,"License Activation (slui.exe) failed with the following error code:
+hr=0x803F7001
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=UserLogon;SessionId=1"
+Information,3/24/2017 10:13:56 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,3/24/2017 10:13:56 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,3/24/2017 10:13:56 AM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.14393.67"
+Information,3/24/2017 10:13:56 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,3/24/2017 10:13:56 AM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\WINDOWS\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,3/24/2017 10:13:55 AM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:trigger=logon;sessionid=1"
+Information,3/24/2017 10:13:52 AM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,3/24/2017 10:13:52 AM,Microsoft-Windows-Winlogon,6003,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Information,3/24/2017 10:13:46 AM,VSS,8224,None,The VSS service is shutting down due to idle timeout. 
+Information,3/24/2017 10:13:41 AM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,3/24/2017 10:13:41 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2017-03-25T15:30:41Z. Reason: RulesEngine.
+Information,3/24/2017 10:13:11 AM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.14393.67"
+Information,3/24/2017 10:13:11 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,3/24/2017 10:13:10 AM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\WINDOWS\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,3/24/2017 10:13:09 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,3/24/2017 10:13:09 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,3/24/2017 10:13:07 AM,SecurityCenter,1,None,The Windows Security Center Service has started.
+Information,3/24/2017 10:13:07 AM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:<none>"
+Warning,3/24/2017 10:13:05 AM,LMS,2001,LMS,LMS cannot connect to Intel(R) MEI driver
+
+Information,3/24/2017 10:13:04 AM,LMS,2000,LMS,Local Management Service started.
+
+Information,3/24/2017 10:13:00 AM,IntelDalJhi,0,None,Intel(R) Dynamic Application Loader Host Interface Service started.
+Error,3/24/2017 10:11:06 AM,Microsoft-Windows-Perflib,1008,None,"The Open Procedure for service ""BITS"" in DLL ""C:\Windows\System32\bitsperf.dll"" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code."
+Information,3/24/2017 10:10:47 AM,VMUpgradeHelper,271,None,Restored network configuration.
+Information,3/24/2017 10:10:46 AM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,3/24/2017 10:10:46 AM,VMUpgradeHelper,258,None,Restoring network configuration.
+Information,3/24/2017 10:10:46 AM,TPAutoConnSvc,0,None,"The description for Event ID 0 from source TPAutoConnSvc cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+TPAutoConnect Service started.
+"
+Information,3/24/2017 10:10:45 AM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,3/24/2017 10:10:45 AM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,3/24/2017 10:10:45 AM,Microsoft-Windows-Search,1003,Search service,The Windows Search Service started.
+
+Information,3/24/2017 10:10:45 AM,Microsoft-Windows-Complus,781,None,The COM+ sub system is suppressing duplicate event log entries for a duration of 86400 seconds.  The suppression timeout can be controlled by a REG_DWORD value named SuppressDuplicateDuration under the following registry key: HKLM\Software\Microsoft\COM3\Eventlog.
+Information,3/24/2017 10:10:45 AM,ESENT,326,General,"SearchIndexer (2360) Windows: The database engine attached a database (1, C:\ProgramData\Microsoft\Search\Data\Applications\Windows\Windows.edb). (Time=0 seconds) 
+ 
+Internal Timing Sequence: [1] 0.000, [2] 0.000, [3] 0.031, [4] 0.000, [5] 0.031, [6] 0.016, [7] 0.000, [8] 0.000, [9] 0.000, [10] 0.000, [11] 0.000, [12] 0.000. 
+Saved Cache: 0 0"
+Information,3/24/2017 10:10:45 AM,ESENT,105,General,"SearchIndexer (2360) Windows: The database engine started a new instance (0). (Time=0 seconds) 
+ 
+Internal Timing Sequence: [1] 0.000, [2] 0.016, [3] 0.000, [4] 0.015, [5] 0.000, [6] 0.000, [7] 0.000, [8] 0.000, [9] 0.000, [10] 0.000."
+Information,3/24/2017 10:10:45 AM,ESENT,102,General,SearchIndexer (2360) Windows: The database engine (10.00.14393.0000) is starting a new instance (0).
+Information,3/24/2017 10:10:44 AM,VMTools,105,None,The service was started.
+Information,3/24/2017 10:10:43 AM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,3/24/2017 10:10:43 AM,Microsoft-Windows-EventSystem,4625,None,The EventSystem sub system is suppressing duplicate event log entries for a duration of 86400 seconds.  The suppression timeout can be controlled by a REG_DWORD value named SuppressDuplicateDuration under the following registry key: HKLM\Software\Microsoft\EventSystem\EventLog.
+Information,3/24/2017 10:10:03 AM,Microsoft-Windows-User Profiles Service,1532,None,"The User Profile Service has stopped.  
+
+"
+Information,3/24/2017 10:10:03 AM,VMTools,108,None,The service was stopped.
+Information,3/24/2017 10:10:03 AM,VMUpgradeHelper,272,None,Saved network configuration.
+Information,3/24/2017 10:10:03 AM,VMUpgradeHelper,260,None,Saving network configuration.
+Information,3/24/2017 10:03:53 AM,Microsoft-Windows-User Profiles Service,1530,None,"Windows detected your registry file is still in use by other applications or services. The file will be unloaded now. The applications or services that hold your registry file may not function properly afterwards. No user action is required.  
+
+ DETAIL - 
+ 2 user registry handles leaked from \Registry\User\S-1-5-21-3508315176-1073355550-3374686319-1001_Classes:
+Process 384 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001_Classes
+Process 384 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001_Classes
+"
+Information,3/24/2017 10:03:53 AM,Microsoft-Windows-User Profiles Service,1530,None,"Windows detected your registry file is still in use by other applications or services. The file will be unloaded now. The applications or services that hold your registry file may not function properly afterwards. No user action is required.  
+
+ DETAIL - 
+ 42 user registry handles leaked from \Registry\User\S-1-5-21-3508315176-1073355550-3374686319-1001:
+Process 976 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001
+Process 976 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001
+Process 976 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001
+Process 976 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001
+Process 680 (\Device\HarddiskVolume5\Windows\System32\lsass.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001
+Process 976 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001
+Process 976 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\SystemCertificates\CA
+Process 768 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\System\GameConfigStore\Parents
+Process 384 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\CommsAPHost\Test
+Process 976 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Policies\Microsoft\SystemCertificates
+Process 976 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Policies\Microsoft\SystemCertificates
+Process 976 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Policies\Microsoft\SystemCertificates
+Process 976 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Policies\Microsoft\SystemCertificates
+Process 976 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\SystemCertificates\trust
+Process 768 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\System\GameConfigStore
+Process 1172 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+Process 384 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer
+Process 1104 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings
+Process 2356 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings
+Process 2008 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings
+Process 384 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings
+Process 976 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\SystemCertificates\TrustedPeople
+Process 2008 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Policies\Microsoft\Windows\DataCollection
+Process 1104 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings
+Process 2356 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings
+Process 2008 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings
+Process 384 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings
+Process 1104 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\Internet Explorer\Main
+Process 2356 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\Internet Explorer\Main
+Process 2008 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\Internet Explorer\Main
+Process 384 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\Internet Explorer\Main
+Process 384 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\ActiveSync\Partners
+Process 976 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\SystemCertificates\Disallowed
+Process 976 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\SystemCertificates\Root
+Process 768 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\System\GameConfigStore\Children
+Process 1104 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\Internet Explorer\Security
+Process 2356 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\Internet Explorer\Security
+Process 2008 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\Internet Explorer\Security
+Process 384 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\Internet Explorer\Security
+Process 384 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\Unified Store\HighWaterMarks\C:_Users_tyler_AppData_Local_Comms_UnistoreDB_store.vol
+Process 976 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Connections
+Process 976 (\Device\HarddiskVolume5\Windows\System32\svchost.exe) has opened key \REGISTRY\USER\S-1-5-21-3508315176-1073355550-3374686319-1001\SOFTWARE\Microsoft\SystemCertificates\SmartCardRoot
+"
+Information,3/24/2017 10:03:53 AM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,3/24/2017 9:44:22 AM,Windows Error Reporting,1001,None,"Fault bucket 129163820550, type 5
+Event Name: RADAR_PRE_LEAK_64
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: dwm.exe
+P2: 10.0.14393.0
+P3: 10.0.14393.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Users\tyler\AppData\Local\Temp\RDRFB27.tmp\empty.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERFBF3.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: bd0ecf64-10a8-11e7-bef8-a0999b163752
+Report Status: 0
+Hashed bucket: 415f40b03d77736d23f52e43f717f92c"
+Information,3/24/2017 9:41:23 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,3/24/2017 9:41:23 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,3/24/2017 9:35:38 AM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,3/24/2017 9:35:38 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2017-03-25T15:30:38Z. Reason: RulesEngine.
+Information,3/24/2017 9:35:08 AM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.14393.67"
+Information,3/24/2017 9:35:08 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,3/24/2017 9:35:08 AM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\WINDOWS\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,3/24/2017 9:35:08 AM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:caller=wmiprvse.exe"
+Information,3/24/2017 9:35:01 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,3/24/2017 9:35:01 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,3/24/2017 9:34:47 AM,Windows Error Reporting,1001,None,"Fault bucket 127084892623, type 5
+Event Name: StoreAgentDownloadFailure1
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;taskhostw
+P2: 80070020
+P3: 14393
+P4: 105
+P5: Windows.Desktop
+P6: V
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Users\tyler\AppData\Local\Temp\FailureReportMetadata_20189.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER7F1A.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;taskhostw_86bf17ef6cdb25dfb51ca6a723c42e8885e9a8bc_00000000_1e7a4400
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 4a7d3bdf-10a7-11e7-bef8-a0999b163752
+Report Status: 0
+Hashed bucket: 42d8bab08a4697eff37ee4fa807a1db1"
+Information,3/24/2017 9:34:42 AM,Windows Error Reporting,1001,None,"Fault bucket 127266822797, type 5
+Event Name: CbsPackageServicingFailure2
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 10.0.14393.0
+P2: Package_for_RollupFix
+P3: 14393.187.1.0
+P4: amd64
+P5: unknown
+P6: 80070490
+P7: CBS Other
+P8: Absent
+P9: Staged
+P10: WindowsUpdateAgent
+
+Attached files:
+\\?\C:\WINDOWS\Logs\CBS\CBS.log
+\\?\C:\WINDOWS\servicing\Sessions\Sessions.xml
+\\?\C:\WINDOWS\inf\setupapi.dev.log
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER32B7.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\Critical_10.0.14393.0_7b1173feb8d383595da111b6f34ceb38e15042_00000000_1e7a32e9
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 373c1f69-f954-11e6-bef8-a0999b163752
+Report Status: 0
+Hashed bucket: 66d8daa90710dd7e92fa3f646017ab6e"
+Information,3/24/2017 9:34:32 AM,Windows Error Reporting,1001,None,"Fault bucket 129360418413, type 5
+Event Name: RADAR_PRE_LEAK_WOW64
+Response: Not available
+Cab Id: 129492571145
+
+Problem signature:
+P1: Agent.exe
+P2: 2.9.5.5414
+P3: 10.0.14393.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Users\tyler\AppData\Local\Temp\RDRD3D1.tmp\empty.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERD440.tmp.WERInternalMetadata.xml
+\\?\C:\Windows\Temp\WERF2A4.tmp.csv
+\\?\C:\Windows\Temp\WERF2E3.tmp.txt
+
+These files may be available here:
+
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 5781b591-10a7-11e7-bef8-a0999b163752
+Report Status: 8
+Hashed bucket: ec4e2571b9b98e13998d6d9611b8a4f9"
+Information,3/24/2017 9:34:25 AM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,3/24/2017 9:34:19 AM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: StoreAgentDownloadFailure1
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;taskhostw
+P2: 80070020
+P3: 14393
+P4: 105
+P5: Windows.Desktop
+P6: B
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Users\tyler\AppData\Local\Temp\FailureReportMetadata_20264.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERD9ED.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;taskhostw_84e9fbc648c282e23d7f553e913c17969d6a4_00000000_cab_1b45da49
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 586d7545-10a7-11e7-bef8-a0999b163752
+Report Status: 4
+Hashed bucket: "
+Information,3/24/2017 9:33:56 AM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: StoreAgentDownloadFailure1
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;taskhostw
+P2: 80070020
+P3: 14393
+P4: 105
+P5: Windows.Desktop
+P6: V
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Users\tyler\AppData\Local\Temp\FailureReportMetadata_20189.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER7F1A.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;taskhostw_86bf17ef6cdb25dfb51ca6a723c42e8885e9a8bc_00000000_cab_1b457f68
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 4a7d3bdf-10a7-11e7-bef8-a0999b163752
+Report Status: 4
+Hashed bucket: "
+Information,3/24/2017 9:31:59 AM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,3/24/2017 9:31:59 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2017-03-25T15:30:59Z. Reason: RulesEngine.
+Error,3/24/2017 9:31:29 AM,Microsoft-Windows-Security-SPP,8198,None,"License Activation (slui.exe) failed with the following error code:
+hr=0x803F7001
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=NetworkAvailable"
+Information,3/24/2017 9:31:28 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,3/24/2017 9:31:28 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,3/24/2017 9:31:23 AM,Microsoft-Windows-RestartManager,10001,None,Ending session 0 started ‎2017‎-‎03‎-‎24T15:31:21.837593200Z.
+Information,3/24/2017 9:31:23 AM,MsiInstaller,1042,None,Ending a Windows Installer transaction: C:\Program Files (x86)\Google\Update\1.3.32.7\GoogleUpdateHelper.msi. Client Process Id: 4412.
+Information,3/24/2017 9:31:23 AM,MsiInstaller,1035,None,Windows Installer reconfigured the product. Product Name: Google Update Helper. Product Version: 1.3.32.7. Product Language: 1033. Manufacturer: Google Inc.. Reconfiguration success or error status: 0.
+Information,3/24/2017 9:31:23 AM,MsiInstaller,11728,None,Product: Google Update Helper -- Configuration completed successfully.
+Information,3/24/2017 9:31:21 AM,Microsoft-Windows-RestartManager,10000,None,Starting session 0 - ‎2017‎-‎03‎-‎24T15:31:21.837593200Z.
+Information,3/24/2017 9:31:21 AM,MsiInstaller,1040,None,Beginning a Windows Installer transaction: C:\Program Files (x86)\Google\Update\1.3.32.7\GoogleUpdateHelper.msi. Client Process Id: 4412.
+Information,3/24/2017 9:31:21 AM,MsiInstaller,1042,None,Ending a Windows Installer transaction: C:\Program Files (x86)\Google\Update\1.3.32.7\GoogleUpdateHelper.msi. Client Process Id: 4412.
+Information,3/24/2017 9:31:21 AM,MsiInstaller,1035,None,Windows Installer reconfigured the product. Product Name: Google Update Helper. Product Version: 1.3.32.7. Product Language: 1033. Manufacturer: Google Inc.. Reconfiguration success or error status: 1638.
+Information,3/24/2017 9:31:21 AM,MsiInstaller,11729,None,Product: Google Update Helper -- Configuration failed.
+Information,3/24/2017 9:31:20 AM,MsiInstaller,1040,None,Beginning a Windows Installer transaction: C:\Program Files (x86)\Google\Update\1.3.32.7\GoogleUpdateHelper.msi. Client Process Id: 4412.
+Information,3/24/2017 9:31:16 AM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.14393.67"
+Information,3/24/2017 9:31:13 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,3/24/2017 9:31:12 AM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\WINDOWS\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,3/24/2017 9:31:11 AM,VSS,8224,None,The VSS service is shutting down due to idle timeout. 
+Information,3/24/2017 9:31:06 AM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:trigger=network;sessionid=0"
+Information,3/24/2017 9:31:04 AM,Microsoft-Windows-CAPI2,4111,None,"Successful auto update of third-party root list with effective date: ‎Tuesday, ‎February ‎28, ‎2017 11:48:08 AM."
+Information,3/24/2017 9:31:04 AM,Microsoft-Windows-CAPI2,4109,None,"Successful auto property update of third-party root certificate:: Subject: <OU=Class 3 Public Primary Certification Authority, O=""VeriSign, Inc."", C=US> Sha1 thumbprint: <742C3192E607E424EB4549542BE1BBC53E6174E2>."
+Information,3/24/2017 9:31:04 AM,Microsoft-Windows-CAPI2,4109,None,"Successful auto property update of third-party root certificate:: Subject: <CN=GTE CyberTrust Global Root, OU=""GTE CyberTrust Solutions, Inc."", O=GTE Corporation, C=US> Sha1 thumbprint: <97817950D81C9670CC34D809CF794431367EF474>."
+Information,2/22/2017 4:12:26 PM,Microsoft-Windows-CAPI2,4113,None,"Successful auto update of pin rules with effective date: ‎Friday, ‎January ‎6, ‎2017 3:24:11 PM."
+Information,2/22/2017 4:12:03 PM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,2/22/2017 4:12:03 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2017-02-23T23:11:03Z. Reason: RulesEngine.
+Error,2/22/2017 4:11:33 PM,Microsoft-Windows-Security-SPP,8198,None,"License Activation (slui.exe) failed with the following error code:
+hr=0x87E107D0
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=NetworkAvailable"
+Information,2/22/2017 4:11:33 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Error,2/22/2017 4:11:33 PM,Microsoft-Windows-Security-SPP,8198,None,"License Activation (slui.exe) failed with the following error code:
+hr=0x87E107D0
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=TimerEvent"
+Information,2/22/2017 4:11:33 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,2/22/2017 4:11:33 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,2/22/2017 4:11:33 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,2/22/2017 4:11:26 PM,Windows Error Reporting,1001,None,"Fault bucket 127029798940, type 5
+Event Name: WindowsUpdateFailure3
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 10.0.14393.103
+P2: 8024402c
+P3: 00000000-0000-0000-0000-000000000000
+P4: Scan
+P5: 0
+P6: 0
+P7: 8024500b
+P8: Update;taskhostw
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER7453.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_10.0.14393.103_6e4332ef63cd5ed736ee2c1edd7ae1beff251a3_00000000_1d344fe4
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: b02d1522-8c04-11e6-bef8-a0999b163752
+Report Status: 0
+Hashed bucket: fd2a09257f663629c8c915e3158a5e75"
+Information,2/22/2017 4:11:26 PM,Windows Error Reporting,1001,None,"Fault bucket 127087358096, type 5
+Event Name: WindowsUpdateFailure3
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 10.0.14393.103
+P2: 80242015
+P3: 7F722A3C-887F-41DB-AE8A-A0FEE28B4AE5
+P4: Install
+P5: 203
+P6: 0
+P7: 80070490
+P8: UpdateOrchestrator
+P9: {9482F4B4-E343-43B6-B170-9A65BC822C77}
+P10: 0
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER7424.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_10.0.14393.103_5b201f55aa9641775e476806631365076404234_00000000_1d344f29
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: b02d1521-8c04-11e6-bef8-a0999b163752
+Report Status: 0
+Hashed bucket: 71e17711e96acb4b815c45cccc9b3185"
+Information,2/22/2017 4:11:26 PM,Windows Error Reporting,1001,None,"Fault bucket 127075808519, type 5
+Event Name: StoreAgentScanForUpdatesFailure0
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;
+P2: 8024402c
+P3: 14393
+P4: 105
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER6251.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;_6a5d87ed203971639a74fb8c415ed647ef763cf_00000000_1d344e2f
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: ad71c1d8-8c04-11e6-bef8-a0999b163752
+Report Status: 0
+Hashed bucket: 180008dabe6b9b77056ff16408d08094"
+Information,2/22/2017 4:11:24 PM,Microsoft-Windows-CAPI2,4111,None,"Successful auto update of third-party root list with effective date: ‎Friday, ‎November ‎11, ‎2016 5:59:43 PM."
+Information,2/22/2017 4:11:19 PM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: CbsPackageServicingFailure2
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 10.0.14393.0
+P2: Package_for_RollupFix
+P3: 14393.187.1.0
+P4: amd64
+P5: unknown
+P6: 80070490
+P7: CBS Other
+P8: Absent
+P9: Staged
+P10: WindowsUpdateAgent
+
+Attached files:
+\\?\C:\WINDOWS\Logs\CBS\CBS.log
+\\?\C:\WINDOWS\servicing\Sessions\Sessions.xml
+\\?\C:\WINDOWS\inf\setupapi.dev.log
+
+These files may be available here:
+
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 373c1f69-f954-11e6-bef8-a0999b163752
+Report Status: 262144
+Hashed bucket: "
+Information,2/22/2017 4:11:19 PM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: CbsPackageServicingFailure2
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 10.0.14393.0
+P2: Package_for_RollupFix
+P3: 14393.187.1.0
+P4: amd64
+P5: unknown
+P6: 80070490
+P7: CBS Other
+P8: Absent
+P9: Staged
+P10: WindowsUpdateAgent
+
+Attached files:
+\\?\C:\WINDOWS\Logs\CBS\CBS.log
+\\?\C:\WINDOWS\servicing\Sessions\Sessions.xml
+\\?\C:\WINDOWS\inf\setupapi.dev.log
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER32B7.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\Critical_10.0.14393.0_7b1173feb8d383595da111b6f34ceb38e15042_00000000_cab_1fec32d7
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 373c1f69-f954-11e6-bef8-a0999b163752
+Report Status: 4
+Hashed bucket: "
+Information,2/22/2017 4:11:19 PM,VSS,8224,None,The VSS service is shutting down due to idle timeout. 
+Information,2/22/2017 4:11:14 PM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.14393.67"
+Information,2/22/2017 4:11:14 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 0 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,2/22/2017 4:11:14 PM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=Security-SPP-WriteWauMarker  Priority=500
+Information,2/22/2017 4:11:12 PM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\WINDOWS\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,2/22/2017 4:11:12 PM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:trigger=timer;sessionid=0"
+Information,10/6/2016 2:40:13 PM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,10/6/2016 2:39:27 PM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,10/6/2016 2:39:27 PM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,10/6/2016 2:38:11 PM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,10/6/2016 2:38:11 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2016-10-07T20:37:11Z. Reason: RulesEngine.
+Error,10/6/2016 2:37:27 PM,Microsoft-Windows-Security-SPP,8198,None,"License Activation (slui.exe) failed with the following error code:
+hr=0x803F7001
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=NetworkAvailable"
+Information,10/6/2016 2:37:27 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,10/6/2016 2:37:27 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,10/6/2016 2:37:25 PM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: WindowsUpdateFailure3
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 10.0.14393.103
+P2: 8024402c
+P3: 00000000-0000-0000-0000-000000000000
+P4: Scan
+P5: 0
+P6: 0
+P7: 8024500b
+P8: Update;taskhostw
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER7453.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_10.0.14393.103_6e4332ef63cd5ed736ee2c1edd7ae1beff251a3_00000000_cab_15e57462
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: b02d1522-8c04-11e6-bef8-a0999b163752
+Report Status: 4
+Hashed bucket: "
+Information,10/6/2016 2:37:25 PM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: WindowsUpdateFailure3
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 10.0.14393.103
+P2: 8024402c
+P3: 00000000-0000-0000-0000-000000000000
+P4: Scan
+P5: 0
+P6: 0
+P7: 8024500b
+P8: Update;taskhostw
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
+
+Attached files:
+
+These files may be available here:
+
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: b02d1522-8c04-11e6-bef8-a0999b163752
+Report Status: 262144
+Hashed bucket: "
+Information,10/6/2016 2:37:25 PM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: WindowsUpdateFailure3
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 10.0.14393.103
+P2: 80242015
+P3: 7F722A3C-887F-41DB-AE8A-A0FEE28B4AE5
+P4: Install
+P5: 203
+P6: 0
+P7: 80070490
+P8: UpdateOrchestrator
+P9: {9482F4B4-E343-43B6-B170-9A65BC822C77}
+P10: 0
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER7424.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_10.0.14393.103_5b201f55aa9641775e476806631365076404234_00000000_cab_15357434
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: b02d1521-8c04-11e6-bef8-a0999b163752
+Report Status: 4
+Hashed bucket: "
+Information,10/6/2016 2:37:25 PM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: WindowsUpdateFailure3
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 10.0.14393.103
+P2: 80242015
+P3: 7F722A3C-887F-41DB-AE8A-A0FEE28B4AE5
+P4: Install
+P5: 203
+P6: 0
+P7: 80070490
+P8: UpdateOrchestrator
+P9: {9482F4B4-E343-43B6-B170-9A65BC822C77}
+P10: 0
+
+Attached files:
+
+These files may be available here:
+
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: b02d1521-8c04-11e6-bef8-a0999b163752
+Report Status: 262144
+Hashed bucket: "
+Information,10/6/2016 2:37:24 PM,Microsoft-Windows-CAPI2,4111,None,"Successful auto update of third-party root list with effective date: ‎Friday, ‎September ‎16, ‎2016 11:40:05 AM."
+Information,10/6/2016 2:37:24 PM,Microsoft-Windows-CAPI2,4108,None,"Successful auto delete of third-party root certificate:: Subject: <OU=Class 3 Public Primary Certification Authority, O=""VeriSign, Inc."", C=US> Sha1 thumbprint: <4F65566336DB6598581D584A596C87934D5F2AB4>."
+Error,10/6/2016 2:37:21 PM,Microsoft-Windows-Security-SPP,8198,None,"License Activation (slui.exe) failed with the following error code:
+hr=0x800704CF
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=NetworkAvailable"
+Information,10/6/2016 2:37:21 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,10/6/2016 2:37:21 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,10/6/2016 2:37:20 PM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: StoreAgentScanForUpdatesFailure0
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;
+P2: 8024402c
+P3: 14393
+P4: 105
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER6251.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_6a5d87ed203971639a74fb8c415ed647ef763cf_00000000_cab_16cd6261
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: ad71c1d8-8c04-11e6-bef8-a0999b163752
+Report Status: 4
+Hashed bucket: "
+Error,9/13/2016 4:43:56 PM,Microsoft-Windows-Security-SPP,8198,None,"License Activation (slui.exe) failed with the following error code:
+hr=0x803F7001
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=NetworkAvailable"
+Information,9/13/2016 4:43:56 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/13/2016 4:43:56 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Error,9/13/2016 4:43:49 PM,Microsoft-Windows-Security-SPP,8198,None,"License Activation (slui.exe) failed with the following error code:
+hr=0x800704CF
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=TimerEvent"
+Information,9/13/2016 4:43:49 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/13/2016 4:43:49 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/13/2016 4:43:48 PM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.14393.67"
+Information,9/13/2016 4:43:48 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/13/2016 4:43:48 PM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\WINDOWS\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,9/13/2016 4:43:48 PM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:trigger=timer;sessionid=0"
+Error,9/12/2016 1:51:45 PM,Microsoft-Windows-Immersive-Shell,5973,(5973),Activation of app Microsoft.WindowsMaps_8wekyb3d8bbwe!App failed with error: This app does not support the contract specified or is not installed. See the Microsoft-Windows-TWinUI/Operational log for additional information.
+Error,9/12/2016 1:51:00 PM,Microsoft-Windows-Immersive-Shell,5973,(5973),Activation of app Microsoft.BingWeather_8wekyb3d8bbwe!App failed with error: This app does not support the contract specified or is not installed. See the Microsoft-Windows-TWinUI/Operational log for additional information.
+Information,9/12/2016 12:47:36 PM,VSS,8224,None,The VSS service is shutting down due to idle timeout. 
+Information,9/12/2016 12:45:17 PM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,9/12/2016 12:45:17 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2016-09-13T17:43:17Z. Reason: RulesEngine.
+Information,9/12/2016 12:44:51 PM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 12:44:51 PM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 12:44:49 PM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 12:44:49 PM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 12:44:47 PM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 12:44:47 PM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 12:44:47 PM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.14393.67"
+Information,9/12/2016 12:44:47 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 0 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 12:44:47 PM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=Security-SPP-WriteWauMarker  Priority=500
+Information,9/12/2016 12:44:47 PM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\WINDOWS\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,9/12/2016 12:44:47 PM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:caller=wmiprvse.exe"
+Information,9/12/2016 12:42:57 PM,System Restore,8195,None,System Restore has been disabled (Process = C:\WINDOWS\System32\svchost.exe -k netsvcs; Volume = ).
+Information,9/12/2016 12:42:50 PM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,9/12/2016 12:42:50 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2016-09-13T17:43:50Z. Reason: RulesEngine.
+Information,9/12/2016 12:42:20 PM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.14393.67"
+Information,9/12/2016 12:42:20 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 12:42:20 PM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\WINDOWS\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,9/12/2016 12:42:20 PM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:caller=wmiprvse.exe"
+Information,9/12/2016 12:14:17 PM,Microsoft-Windows-CAPI2,4097,None,"Successful auto update of third-party root certificate:: Subject: <CN=DST Root CA X3, O=Digital Signature Trust Co.> Sha1 thumbprint: <DAC9024F54D8F6DF94935FB1732638CA6AD77C13>."
+Information,9/12/2016 11:45:17 AM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,9/12/2016 11:44:46 AM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,9/12/2016 11:44:46 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2016-09-13T17:43:46Z. Reason: RulesEngine.
+Information,9/12/2016 11:44:19 AM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: PnPRequestAdditionalSoftware
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: x64
+P2: USB\VID_0E0F&PID_0007&REV_0100
+P3: 10.0.0.0
+P4: 0409
+P5: input.inf
+P6: *
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_a2b6d8d3406770e2e76b5cd968cfc1952f3e85b_00000000_04cea2c6
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 87e2cf97-7910-11e6-bef8-a0999b163752
+Report Status: 4100
+Hashed bucket: "
+Information,9/12/2016 11:44:19 AM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: PnPGenericDriverFound
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: x64
+P2: USB\VID_0E0F&PID_0007&REV_0100
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_8e88d4452e9c68c13076fcabf222756ace3225c_00000000_04cea2a7
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 87e2cf96-7910-11e6-bef8-a0999b163752
+Report Status: 4100
+Hashed bucket: "
+Information,9/12/2016 11:44:19 AM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: PnPRequestAdditionalSoftware
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: x64
+P2: HID\VID_0E0F&PID_0007&REV_0100
+P3: 10.0.0.0
+P4: 0409
+P5: input.inf
+P6: *
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_346e220d3dac6410485a3bd92bc1ec89dced5_00000000_04cea288
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 87e2cf95-7910-11e6-bef8-a0999b163752
+Report Status: 4100
+Hashed bucket: "
+Information,9/12/2016 11:44:19 AM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: PnPGenericDriverFound
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: x64
+P2: HID\VID_0E0F&PID_0007&REV_0100
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_87b1c5a241e9a0278e425ca8ff67424728abd_00000000_04cea259
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 87e2cf94-7910-11e6-bef8-a0999b163752
+Report Status: 4100
+Hashed bucket: "
+Error,9/12/2016 11:44:09 AM,Microsoft-Windows-Security-SPP,8198,None,"License Activation (slui.exe) failed with the following error code:
+hr=0x803F7001
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=NetworkAvailable"
+Information,9/12/2016 11:44:09 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 11:44:09 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Error,9/12/2016 11:44:05 AM,Microsoft-Windows-Security-SPP,8198,None,"License Activation (slui.exe) failed with the following error code:
+hr=0x80072EE7
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=NetworkAvailable"
+Information,9/12/2016 11:44:05 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 11:44:05 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 11:44:04 AM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.14393.67"
+Information,9/12/2016 11:44:04 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 11:44:03 AM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\WINDOWS\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,9/12/2016 11:44:03 AM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:trigger=network;sessionid=0"
+Information,9/12/2016 11:44:03 AM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: PnPRequestAdditionalSoftware
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: x64
+P2: USB\VID_0E0F&PID_0007&REV_0100
+P3: 10.0.0.0
+P4: 0409
+P5: input.inf
+P6: *
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER6207.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_a2b6d8d3406770e2e76b5cd968cfc1952f3e85b_00000000_cab_0f1a6233
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 7df4151c-7910-11e6-bef8-a0999b163752
+Report Status: 4
+Hashed bucket: "
+Information,9/12/2016 11:44:03 AM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: PnPGenericDriverFound
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: x64
+P2: USB\VID_0E0F&PID_0007&REV_0100
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER61C7.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_8e88d4452e9c68c13076fcabf222756ace3225c_00000000_cab_0f1a61d5
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 7df4151b-7910-11e6-bef8-a0999b163752
+Report Status: 4
+Hashed bucket: "
+Information,9/12/2016 11:44:03 AM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: PnPRequestAdditionalSoftware
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: x64
+P2: HID\VID_0E0F&PID_0007&REV_0100
+P3: 10.0.0.0
+P4: 0409
+P5: input.inf
+P6: *
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER6188.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_346e220d3dac6410485a3bd92bc1ec89dced5_00000000_cab_0f1a6197
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 7df4151a-7910-11e6-bef8-a0999b163752
+Report Status: 4
+Hashed bucket: "
+Information,9/12/2016 11:44:03 AM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: PnPGenericDriverFound
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: x64
+P2: HID\VID_0E0F&PID_0007&REV_0100
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER6148.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_87b1c5a241e9a0278e425ca8ff67424728abd_00000000_cab_0f1a6158
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 7df41519-7910-11e6-bef8-a0999b163752
+Report Status: 4
+Hashed bucket: "
+Information,9/12/2016 10:58:12 AM,Windows Error Reporting,1001,None,"Fault bucket 127008583404, type 5
+Event Name: Win10UpgradeProgramInChina
+Response: Not available
+Cab Id: 125445601969
+
+Problem signature:
+P1: VanillaWelcomePage
+P2: Completed
+P3: Exit in state WelcomeUserOnWin10
+P4: 10.0 (14393),,1, 768
+P5: {E52ABFC2-76BB-4908-883F-CA581FDD83F9}
+P6: NULL
+P7: 1.4.9200.17354-1-[URL::<1.4.9200.17354>:<1>]
+P8: Undefined
+P9: Undefined
+P10: 0
+
+Attached files:
+\\?\C:\Users\tyler\AppData\Local\Temp\report.rpt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER515A.tmp.WERInternalMetadata.xml
+\\?\C:\Windows\Temp\WER538D.tmp.csv
+\\?\C:\Windows\Temp\WER53AD.tmp.txt
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_VanillaWelcomePa_cef529d456b39dcb1507f268ad8542380804c97_00000000_cab_07265458
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 15e4ee27-790a-11e6-bef8-a0999b163752
+Report Status: 8
+Hashed bucket: d18171134698b28d392c73f6ce6e2112"
+Information,9/12/2016 10:58:11 AM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: Win10UpgradeProgramInChina
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: VanillaWelcomePage
+P2: Completed
+P3: Exit in state WelcomeUserOnWin10
+P4: 10.0 (14393),,1, 768
+P5: {E52ABFC2-76BB-4908-883F-CA581FDD83F9}
+P6: NULL
+P7: 1.4.9200.17354-1-[URL::<1.4.9200.17354>:<1>]
+P8: Undefined
+P9: Undefined
+P10: 0
+
+Attached files:
+\\?\C:\Users\tyler\AppData\Local\Temp\report.rpt
+
+These files may be available here:
+
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 15e4ee27-790a-11e6-bef8-a0999b163752
+Report Status: 262144
+Hashed bucket: "
+Information,9/12/2016 10:44:13 AM,Windows Error Reporting,1001,None,"Fault bucket 125987989486, type 5
+Event Name: SkyDriveClientError
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: OneDriveSetup.exe
+P2: 17.3.6381.0405
+P3: OneDriveSetup.exe
+P4: 17.3.6381.0405
+P5: 0x80040692
+P6: Installer
+P7: application.cpp
+P8: 151
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Users\tyler\AppData\Local\Microsoft\OneDrive\setup\logs\Update_2016-08-03_091007_1ba4-1a98.log
+\\?\C:\Users\tyler\AppData\Local\Microsoft\OneDrive\setup\logs\Update_2016-08-03_090951_179c-17a0.log
+\\?\C:\Users\tyler\AppData\Local\Microsoft\OneDrive\setup\logs\Update_2016-06-06_091624_102c-1028.log
+\\?\C:\Users\tyler\AppData\Local\Microsoft\OneDrive\setup\logs\Update_2016-04-18_101913_15f0-15f4.log
+\\?\C:\Users\tyler\AppData\Local\Microsoft\OneDrive\setup\logs\Update_2016-01-04_124311_1398-18f4.log
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER7A3E.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_OneDriveSetup.ex_a12a5359dc1d99d45d9ed249a53a8d9ab1f9b1f9_00000000_17198385
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 20800044-7908-11e6-bef8-a0999b163752
+Report Status: 0
+Hashed bucket: 62c60a5ba3c686dc326dc6a7c52da2c2"
+Information,9/12/2016 10:44:12 AM,Windows Error Reporting,1001,None,"Fault bucket 125987989486, type 5
+Event Name: SkyDriveClientError
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: OneDriveSetup.exe
+P2: 17.3.6381.0405
+P3: OneDriveSetup.exe
+P4: 17.3.6381.0405
+P5: 0x80040692
+P6: Installer
+P7: application.cpp
+P8: 151
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER7BD5.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_OneDriveSetup.ex_a12a5359dc1d99d45d9ed249a53a8d9ab1f9b1f9_00000000_16e18182
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 20f268e0-7908-11e6-bef8-a0999b163752
+Report Status: 0
+Hashed bucket: 62c60a5ba3c686dc326dc6a7c52da2c2"
+Information,9/12/2016 10:44:11 AM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: SkyDriveClientError
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: OneDriveSetup.exe
+P2: 17.3.6381.0405
+P3: OneDriveSetup.exe
+P4: 17.3.6381.0405
+P5: 0x80040692
+P6: Installer
+P7: application.cpp
+P8: 151
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 20f268e0-7908-11e6-bef8-a0999b163752
+Report Status: 262144
+Hashed bucket: "
+Information,9/12/2016 10:44:10 AM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: SkyDriveClientError
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: OneDriveSetup.exe
+P2: 17.3.6381.0405
+P3: OneDriveSetup.exe
+P4: 17.3.6381.0405
+P5: 0x80040692
+P6: Installer
+P7: application.cpp
+P8: 151
+P9: 
+P10: 
+
+Attached files:
+
+These files may be available here:
+
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 20800044-7908-11e6-bef8-a0999b163752
+Report Status: 262144
+Hashed bucket: "
+Information,9/12/2016 10:42:55 AM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,9/12/2016 10:42:55 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2016-09-13T16:41:55Z. Reason: RulesEngine.
+Error,9/12/2016 10:42:17 AM,Microsoft-Windows-Security-SPP,8198,None,"License Activation (slui.exe) failed with the following error code:
+hr=0x803F7001
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=UserLogon;SessionId=1"
+Information,9/12/2016 10:42:17 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 10:42:17 AM,Microsoft-Windows-RestartManager,10001,None,Ending session 0 started ‎2016‎-‎09‎-‎12T16:42:17.406316500Z.
+Information,9/12/2016 10:42:17 AM,MsiInstaller,1042,None,Ending a Windows Installer transaction: {139493B2-F1BC-4F05-A974-B49297C1EB04}. Client Process Id: 2132.
+Information,9/12/2016 10:42:17 AM,MsiInstaller,1034,None,Windows Installer removed the product. Product Name: UpdateAssistant. Product Version: 1.1.0.0. Product Language: 0. Manufacturer: Microsoft Corporation. Removal success or error status: 0.
+Information,9/12/2016 10:42:17 AM,MsiInstaller,11724,None,Product: UpdateAssistant -- Removal completed successfully.
+Information,9/12/2016 10:42:17 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 10:42:17 AM,Microsoft-Windows-RestartManager,10000,None,Starting session 0 - ‎2016‎-‎09‎-‎12T16:42:17.406316500Z.
+Information,9/12/2016 10:42:17 AM,MsiInstaller,1040,None,Beginning a Windows Installer transaction: {139493B2-F1BC-4F05-A974-B49297C1EB04}. Client Process Id: 2132.
+Information,9/12/2016 10:42:16 AM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.14393.67"
+Information,9/12/2016 10:42:16 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 10:42:15 AM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\WINDOWS\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\WINDOWS\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,9/12/2016 10:42:14 AM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:trigger=logon;sessionid=1"
+Information,9/12/2016 10:42:13 AM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,9/12/2016 10:42:12 AM,Microsoft-Windows-Winlogon,6003,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Error,9/12/2016 9:47:59 AM,Microsoft-Windows-Search,3104,Gatherer,Enumerating user sessions to generate filter pools failed.
+
+Details:
+	(HRESULT : 0x80040210) (0x80040210)
+
+Error,9/12/2016 9:47:59 AM,Microsoft-Windows-Search,3104,Gatherer,Enumerating user sessions to generate filter pools failed.
+
+Details:
+	(HRESULT : 0x80040210) (0x80040210)
+
+Information,9/12/2016 9:46:54 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 9:46:54 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 9:46:52 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 9:46:52 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 8:52:57 AM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,9/12/2016 8:50:23 AM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,9/12/2016 8:50:23 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2016-09-13T14:49:23Z. Reason: RulesEngine.
+Error,9/12/2016 8:49:53 AM,Microsoft-Windows-Security-SPP,8198,None,"License Activation (slui.exe) failed with the following error code:
+hr=0x8007139F
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=TimerEvent"
+Information,9/12/2016 8:49:53 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 8:49:50 AM,Microsoft-Windows-Security-SPP,8230,None,"The rules engine successfully re-evaluated the schedule.
+Kernel policies:
+Security-SPP-Action-StateData (REG_SZ) =AppId=55c92734-d682-4d71-983e-d6ec3f16059f;LastConsumptionReason=0xc004f034;LastNotificationId=NeverActivated;LicenseState=SL_LICENSING_STATUS_NOTIFICATION;PartialProductKey=8HVX7;ProductKeyType=Retail;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;ruleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;uxDifferentiator=RETAIL"
+Information,9/12/2016 8:48:00 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 8:48:00 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Error,9/12/2016 8:47:59 AM,Microsoft-Windows-Search,3104,Gatherer,Enumerating user sessions to generate filter pools failed.
+
+Details:
+	(HRESULT : 0x80040210) (0x80040210)
+
+Error,9/12/2016 8:47:59 AM,Microsoft-Windows-Search,3104,Gatherer,Enumerating user sessions to generate filter pools failed.
+
+Details:
+	(HRESULT : 0x80040210) (0x80040210)
+
+Error,9/12/2016 8:47:59 AM,Microsoft-Windows-Search,3104,Gatherer,Enumerating user sessions to generate filter pools failed.
+
+Details:
+	(HRESULT : 0x80040210) (0x80040210)
+
+Error,9/12/2016 8:47:59 AM,Microsoft-Windows-Search,3104,Gatherer,Enumerating user sessions to generate filter pools failed.
+
+Details:
+	(HRESULT : 0x80040210) (0x80040210)
+
+Information,9/12/2016 8:47:58 AM,Microsoft-Windows-Search,1005,Search service,The Windows Search Service has successfully created the new search index. 
+
+Information,9/12/2016 8:47:58 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 8:47:58 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 8:47:57 AM,ESENT,325,General,"SearchIndexer (628) Windows: The database engine created a new database (1, C:\ProgramData\Microsoft\Search\Data\Applications\Windows\Windows.edb). (Time=0 seconds) 
+ 
+Internal Timing Sequence: [1] 0.000, [2] 0.000, [3] 0.000, [4] 0.031, [5] 0.000, [6] 0.000, [7] 0.000, [8] 0.000, [9] 0.063, [10] 0.000, [11] 0.000."
+Information,9/12/2016 8:47:57 AM,ESENT,637,General,"SearchIndexer (628) Windows: New flush map file ""C:\ProgramData\Microsoft\Search\Data\Applications\Windows\Windows.jfm"" will be created to enable persisted lost flush detection."
+Information,9/12/2016 8:47:57 AM,ESENT,105,General,"SearchIndexer (628) Windows: The database engine started a new instance (0). (Time=0 seconds) 
+ 
+Internal Timing Sequence: [1] 0.000, [2] 0.000, [3] 0.031, [4] 0.000, [5] 0.000, [6] 0.000, [7] 0.000, [8] 0.000, [9] 0.000, [10] 0.000."
+Information,9/12/2016 8:47:57 AM,ESENT,102,General,SearchIndexer (628) Windows: The database engine (10.00.14393.0000) is starting a new instance (0).
+Information,9/12/2016 8:47:57 AM,Microsoft-Windows-Search,1004,Search service,The Windows Search service is creating the new search index {Reason: Other}. 
+
+Information,9/12/2016 8:47:56 AM,Microsoft-Windows-Search,1010,Search service,The Windows Search Service has successfully removed the old search index. 
+
+Warning,9/12/2016 8:47:56 AM,Microsoft-Windows-Search,1008,Search service,The Windows Search Service is starting up and attempting to remove the old search index {Reason: Other}. 
+
+Information,9/12/2016 8:47:56 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 8:47:56 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 8:47:54 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 8:47:54 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 8:47:52 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 8:47:52 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,9/12/2016 8:47:51 AM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: PnPGenericDriverFound
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: x64
+P2: USB\VID_0E0F&PID_0008&REV_0100
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERF19E.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_d835f782f954b3ba23e224d4ed8530eec9c81f_00000000_096af42a
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: dfc58cb8-78f7-11e6-bef8-a0999b163752
+Report Status: 8192
+Hashed bucket: "
+Information,9/12/2016 8:47:51 AM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: PnPGenericDriverFound
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: x64
+P2: USB\VID_0E0F&PID_0008&REV_0100
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERF19E.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_x64_d835f782f954b3ba23e224d4ed8530eec9c81f_00000000_cab_03d2f1c8
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: dfc58cb8-78f7-11e6-bef8-a0999b163752
+Report Status: 4
+Hashed bucket: "
+Information,9/12/2016 8:47:30 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 8:47:30 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 8:47:30 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 8:47:30 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 8:47:30 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 8:47:30 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 8:47:30 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 8:47:30 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 8:47:30 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 8:47:30 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 8:47:30 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 8:47:30 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 8:47:30 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 8:47:30 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 8:47:26 AM,Microsoft-Windows-Winlogon,6003,None,The winlogon notification subscriber <TrustedInstaller> was unavailable to handle a critical notification event.
+Information,9/12/2016 8:47:21 AM,Windows Error Reporting,1001,None,"Fault bucket 126740156893, type 5
+Event Name: WinSetupDiag02
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 1
+P2: 4
+P3: 9
+P4: 0
+P5: 0x0
+P6: 0x0
+P7: 14393
+P8: rs1_release
+P9: 14393
+P10: rs1_release
+
+Attached files:
+\\?\C:\Windows\Panther\SetupAct.log
+\\?\C:\Windows\Panther\diagerr.xml
+\\?\C:\Windows\inf\setupapi.setup.log
+\\?\C:\Windows\inf\setupapi.dev.log
+\\?\C:\Windows\inf\setupapi.offline.log
+WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl
+\\?\C:\Windows\Temp\WER78D0.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER78D1.tmp.WERInternalMetadata.xml
+
+These files may be available here:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_1_987b69bcbbe4a62edb88bf51b3a665395f7f3a1e_00000000_0caa7d92
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: cdfa1f89-78f7-11e6-bef8-a0999b163752
+Report Status: 0
+Hashed bucket: 94d069c6466fe5facc8e9221bfd0d096"
+Information,9/12/2016 8:47:20 AM,Windows Error Reporting,1001,None,"Fault bucket , type 0
+Event Name: WinSetupDiag02
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 1
+P2: 4
+P3: 9
+P4: 0
+P5: 0x0
+P6: 0x0
+P7: 14393
+P8: rs1_release
+P9: 14393
+P10: rs1_release
+
+Attached files:
+\\?\C:\Windows\Panther\SetupAct.log
+\\?\C:\Windows\Panther\diagerr.xml
+\\?\C:\Windows\inf\setupapi.setup.log
+\\?\C:\Windows\inf\setupapi.dev.log
+\\?\C:\Windows\inf\setupapi.offline.log
+
+These files may be available here:
+
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: cdfa1f89-78f7-11e6-bef8-a0999b163752
+Report Status: 262144
+Hashed bucket: "
+Information,9/12/2016 8:47:16 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 0 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 8:47:16 AM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=Security-SPP-WriteWauMarker  Priority=500
+Information,9/12/2016 8:47:16 AM,Microsoft-Windows-Security-SPP,1016,None,"Proof of Purchase installed successfully. 
+ACID=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8
+PKeyId=aae1191f-7f47-05b8-8319-664b3ee8c42e"
+Information,9/12/2016 8:47:01 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_SNOOZED.
+Information,9/12/2016 8:47:01 AM,SecurityCenter,15,None,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_SNOOZED.
+Information,9/12/2016 8:46:59 AM,SecurityCenter,1,None,The Windows Security Center Service has started.
+Warning,9/12/2016 8:46:59 AM,LMS,2001,LMS,LMS cannot connect to Intel(R) MEI driver
+
+Information,9/12/2016 8:46:58 AM,LMS,2000,LMS,Local Management Service started.
+
+Information,9/12/2016 8:46:57 AM,IntelDalJhi,0,None,Intel(R) Dynamic Application Loader Host Interface Service started.
+Information,9/12/2016 8:46:53 AM,Microsoft-Windows-Search,1003,Search service,The Windows Search Service started.
+
+Warning,9/12/2016 8:45:47 AM,Microsoft-Windows-WMI,63,None,"A provider, DSCCoreProviders, has been registered in the Windows Management Instrumentation namespace ROOT\Microsoft\Windows\DesiredStateConfiguration to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:47 AM,Microsoft-Windows-WMI,63,None,"A provider, EventTracingManagement, has been registered in the Windows Management Instrumentation namespace ROOT\Microsoft\Windows\EventTracingManagement to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:47 AM,Microsoft-Windows-WMI,63,None,"A provider, EventTracingManagement, has been registered in the Windows Management Instrumentation namespace ROOT\Microsoft\Windows\EventTracingManagement to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:47 AM,Microsoft-Windows-WMI,63,None,"A provider, EventTracingManagement, has been registered in the Windows Management Instrumentation namespace ROOT\Microsoft\Windows\EventTracingManagement to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Error,9/12/2016 8:45:47 AM,Microsoft-Windows-WMI,24,None,"Event provider wsp_sr attempted to register query ""select * from WSP_ReplicationGroupModificationEvent"" whose target class ""WSP_ReplicationGroupModificationEvent"" in //./root/Microsoft/Windows/Storage/Providers_v2 namespace does not exist. The query will be ignored."
+Error,9/12/2016 8:45:47 AM,Microsoft-Windows-WMI,24,None,"Event provider wsp_sr attempted to register query ""select * from WSP_ReplicationGroupDepartureEvent"" whose target class ""WSP_ReplicationGroupDepartureEvent"" in //./root/Microsoft/Windows/Storage/Providers_v2 namespace does not exist. The query will be ignored."
+Error,9/12/2016 8:45:47 AM,Microsoft-Windows-WMI,24,None,"Event provider wsp_sr attempted to register query ""select * from WSP_ReplicationGroupArrivalEvent"" whose target class ""WSP_ReplicationGroupArrivalEvent"" in //./root/Microsoft/Windows/Storage/Providers_v2 namespace does not exist. The query will be ignored."
+Error,9/12/2016 8:45:47 AM,Microsoft-Windows-WMI,24,None,"Event provider  attempted to register query ""select * from WSP_ReplicationGroupModificationEvent"" whose target class ""WSP_ReplicationGroupModificationEvent"" in //./root/Microsoft/Windows/Storage/Providers_v2 namespace does not exist. The query will be ignored."
+Error,9/12/2016 8:45:47 AM,Microsoft-Windows-WMI,24,None,"Event provider  attempted to register query ""select * from WSP_ReplicationGroupDepartureEvent"" whose target class ""WSP_ReplicationGroupDepartureEvent"" in //./root/Microsoft/Windows/Storage/Providers_v2 namespace does not exist. The query will be ignored."
+Error,9/12/2016 8:45:47 AM,Microsoft-Windows-WMI,24,None,"Event provider  attempted to register query ""select * from WSP_ReplicationGroupArrivalEvent"" whose target class ""WSP_ReplicationGroupArrivalEvent"" in //./root/Microsoft/Windows/Storage/Providers_v2 namespace does not exist. The query will be ignored."
+Warning,9/12/2016 8:45:47 AM,Microsoft-Windows-WMI,63,None,"A provider, WsmAgent, has been registered in the Windows Management Instrumentation namespace ROOT\Microsoft\Windows\winrm to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:47 AM,Microsoft-Windows-WMI,63,None,"A provider, WsmAgent, has been registered in the Windows Management Instrumentation namespace ROOT\Microsoft\Windows\winrm to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:46 AM,Microsoft-Windows-WMI,63,None,"A provider, ProfileAssociationProviderInterop, has been registered in the Windows Management Instrumentation namespace ROOT\Interop to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:46 AM,Microsoft-Windows-WMI,63,None,"A provider, ProfileAssociationProviderInterop, has been registered in the Windows Management Instrumentation namespace ROOT\Interop to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:46 AM,Microsoft-Windows-WMI,63,None,"A provider, NetEventPacketCapture, has been registered in the Windows Management Instrumentation namespace ROOT\StandardCimv2 to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:46 AM,Microsoft-Windows-WMI,63,None,"A provider, NetEventPacketCapture, has been registered in the Windows Management Instrumentation namespace ROOT\StandardCimv2 to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:46 AM,Microsoft-Windows-WMI,63,None,"A provider, NetEventPacketCapture, has been registered in the Windows Management Instrumentation namespace ROOT\StandardCimv2 to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:46 AM,Microsoft-Windows-WMI,63,None,"A provider, MINT, has been registered in the Windows Management Instrumentation namespace ROOT\PEH to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:46 AM,Microsoft-Windows-WMI,63,None,"A provider, MINT, has been registered in the Windows Management Instrumentation namespace ROOT\PEH to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:46 AM,Microsoft-Windows-WMI,63,None,"A provider, MINT, has been registered in the Windows Management Instrumentation namespace ROOT\PEH to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:46 AM,Microsoft-Windows-WMI,63,None,"A provider, ProfileAssociationProviderCimV2, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2\power to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:46 AM,Microsoft-Windows-WMI,63,None,"A provider, PowerMeterProvider, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2\power to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, ProfileAssociationProviderCimV2, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2\power to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, PowerMeterProvider, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2\power to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, PowerMeterProvider, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2\power to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, MDMSettingsProv, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2\mdm to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, DMWmiBridgeProv, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2\mdm\dmmap to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, DMWmiBridgeProv, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2\mdm\dmmap to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, DMWmiBridgeProv, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2\mdm\dmmap to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, MDMSettingsProv, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2\mdm to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, MDMSettingsProv, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2\mdm to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, UserProfileConfigurationProvider, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2 to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, Win32_FolderRedirectionConfiguration, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2 to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, InvProv, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2 to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, UserProfileConfigurationProvider, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2 to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, Win32_UserStateConfigurationProvider, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2 to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, Win32_FolderRedirectionConfiguration, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2 to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, Win32_UserStateConfigurationProvider, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2 to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, UserProfileConfigurationProvider, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2 to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:45 AM,Microsoft-Windows-WMI,63,None,"A provider, InvProv, has been registered in the Windows Management Instrumentation namespace ROOT\CIMV2 to use the LocalSystem account. This account is privileged and the provider may cause a security violation if it does not correctly impersonate user requests."
+Warning,9/12/2016 8:45:41 AM,Microsoft-Windows-MSDTC Client 2,4104,Cluster,Failed trying to get the state of the cluster node: DESKTOP-VHT19DE.The error code returned: 0x8007085A
+Error,9/12/2016 8:45:41 AM,Microsoft-Windows-MSDTC Client 2,4104,Cluster,Failed trying to get the state of the cluster node: .The error code returned: 0x8007085A
+Information,9/12/2016 8:45:41 AM,Microsoft-Windows-Complus,781,None,The COM+ sub system is suppressing duplicate event log entries for a duration of 86400 seconds.  The suppression timeout can be controlled by a REG_DWORD value named SuppressDuplicateDuration under the following registry key: HKLM\Software\Microsoft\COM3\Eventlog.
+Warning,9/12/2016 8:45:41 AM,Microsoft-Windows-MSDTC Client 2,4879,CM,MSDTC encountered an error (HR=0x80000171) while attempting to establish a secure connection with system DESKTOP-VHT19DE.
+Information,9/12/2016 8:45:37 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 0567073a-7d74-403b-b2d5-6b35da372d8d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+2: 0cdc4d08-6df6-4eb4-b5b4-a373c3e351e7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 1b750385-9fe2-49a8-ab55-149d0546395b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 1d873132-f09f-4eb2-bf5a-2e4fb48935e8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+6: 30d469c6-a78f-4476-b5c8-af78d5b6a5fb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 411b3d4f-be6d-4a06-baaa-9cabfc256cae, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 58e97c99-f377-4ef1-81d5-4ad5522b5fd8, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 74436dbb-cc17-46de-867f-14906ba4a938, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: 8db63db6-4f8f-46d6-a448-66444faaaa72, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: 9e4b231b-3e45-41f4-967f-c914f178b6ac, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: bbc56067-37f8-49dd-87b2-a418a9ba130a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: c082c31b-2c4f-4e07-94d7-9181fa802c4b, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+14: e371d89a-73e8-4b24-a7ff-23a3641dd18e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,9/12/2016 8:45:25 AM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Error,9/12/2016 8:45:18 AM,Microsoft-Windows-Perflib,1008,None,"The Open Procedure for service ""MSDTC"" in DLL ""C:\WINDOWS\system32\msdtcuiu.DLL"" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code."
+Error,9/12/2016 8:45:18 AM,Microsoft-Windows-MSDTC Client 2,4104,Cluster,Failed trying to get the state of the cluster node: .The error code returned: 0x8007085A
+Error,9/12/2016 8:45:18 AM,Microsoft-Windows-Perflib,1008,None,"The Open Procedure for service ""BITS"" in DLL ""C:\Windows\System32\bitsperf.dll"" failed. Performance data for this service will not be available. The first four bytes (DWORD) of the Data section contains the error code."
+Error,9/12/2016 8:45:10 AM,Microsoft-Windows-MSDTC Client 2,4104,Cluster,Failed trying to get the state of the cluster node: .The error code returned: 0x8007085A
+Information,9/12/2016 8:45:10 AM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Error,9/12/2016 8:45:10 AM,Microsoft-Windows-MSDTC 2,4104,Cluster,Failed trying to get the state of the cluster node: .The error code returned: 0x8007085A
+Warning,9/12/2016 8:45:10 AM,Microsoft-Windows-MSDTC Client 2,4104,Cluster,Failed trying to get the state of the cluster node: DESKTOP-VHT19DE.The error code returned: 0x8007085A
+Error,9/12/2016 8:45:10 AM,Microsoft-Windows-MSDTC Client 2,4104,Cluster,Failed trying to get the state of the cluster node: .The error code returned: 0x8007085A
+Information,9/12/2016 8:45:10 AM,Microsoft-Windows-Complus,781,None,The COM+ sub system is suppressing duplicate event log entries for a duration of 86400 seconds.  The suppression timeout can be controlled by a REG_DWORD value named SuppressDuplicateDuration under the following registry key: HKLM\Software\Microsoft\COM3\Eventlog.
+Information,9/12/2016 8:44:59 AM,TPAutoConnSvc,0,None,"The description for Event ID 0 from source TPAutoConnSvc cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+TPAutoConnect Service started.
+"
+Information,9/12/2016 8:44:58 AM,VMUpgradeHelper,271,None,Restored network configuration.
+Information,9/12/2016 8:44:58 AM,VMUpgradeHelper,258,None,Restoring network configuration.
+Information,9/12/2016 8:44:57 AM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,9/12/2016 8:44:56 AM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,9/12/2016 8:44:56 AM,VMTools,105,None,The service was started.
+Information,9/12/2016 8:44:55 AM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,9/12/2016 8:44:55 AM,Microsoft-Windows-EventSystem,4625,None,The EventSystem sub system is suppressing duplicate event log entries for a duration of 86400 seconds.  The suppression timeout can be controlled by a REG_DWORD value named SuppressDuplicateDuration under the following registry key: HKLM\Software\Microsoft\EventSystem\EventLog.
+Information,9/9/2016 5:19:44 PM,Microsoft-Windows-User Profiles Service,1532,None,"The User Profile Service has stopped.  
+
+"
+Warning,9/9/2016 5:17:04 PM,Microsoft-Windows-User Profiles Service,1534,None,"Profile notification of event Create for component {D63AA156-D534-4BAC-9BF1-55359CF5EC30} failed, error code is The system cannot find the path specified.
+. 
+
+"
+Information,9/9/2016 5:17:04 PM,Microsoft-Windows-Search-ProfileNotify,5,None,"Windows Search Service has created default configuration for new user 'DESKTOP-VHT19DE\tyler' .
+"
+Information,9/9/2016 5:15:52 PM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,9/9/2016 5:14:52 PM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,9/9/2016 5:14:51 PM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,9/9/2016 5:14:51 PM,Microsoft-Windows-EventSystem,4625,None,The EventSystem sub system is suppressing duplicate event log entries for a duration of 86400 seconds.  The suppression timeout can be controlled by a REG_DWORD value named SuppressDuplicateDuration under the following registry key: HKLM\Software\Microsoft\EventSystem\EventLog.
