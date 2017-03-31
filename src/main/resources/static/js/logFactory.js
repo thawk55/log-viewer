@@ -38,7 +38,7 @@ app.factory('logFactory', function($http, $q) {
     removeLog: function(logId){
       var defer = $q.defer();
       $http.delete(api + 'logs/' + logId).then(function(response){
-        defer.resolve(response.data);
+        defer.resolve(response);
       }, function(response){
         defer.reject(response.data);
       });

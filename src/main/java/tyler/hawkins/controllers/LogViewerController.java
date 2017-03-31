@@ -5,6 +5,7 @@ import tyler.hawkins.LogViewerDatasource;
 import tyler.hawkins.daos.LogViewerDAO;
 import tyler.hawkins.models.Log;
 import tyler.hawkins.models.NewLog;
+import tyler.hawkins.models.PaginatedLogs;
 
 import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
@@ -14,7 +15,7 @@ public class LogViewerController {
     private LogViewerDAO dao = new LogViewerDAO(LogViewerDatasource.getDataSource());
 
     @RequestMapping(value = "/logs", method = RequestMethod.GET)
-    ArrayList<Log> getLogs(@RequestParam(value = "search", required = false) String search, @RequestParam(value = "limit", required = false) Integer limit, @RequestParam(value = "skip", required = false) Integer skip) {
+    PaginatedLogs getLogs(@RequestParam(value = "search", required = false) String search, @RequestParam(value = "limit", required = false) Integer limit, @RequestParam(value = "skip", required = false) Integer skip) {
         if(limit == null){
             limit = Integer.MAX_VALUE;
         }
@@ -34,7 +35,7 @@ public class LogViewerController {
         return dao.insert(log);
     }
 
-    @RequestMapping(value = "/logs/{logId}", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/logs/{logId}", method = RequestMethod.DELETE, produces = { "text/plain" })
     String removeLog(@PathVariable("logId") short logId, HttpServletResponse response) {
         if(dao.remove(logId)) {
             return "Deleted log " + logId;

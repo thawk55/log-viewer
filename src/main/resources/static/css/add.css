@@ -1,0 +1,45 @@
+#add {
+    padding: 5px 30px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#add .btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+#add .btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#add label {
+    width: 100px;
+    text-align: left;
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+
+#add input {
+    width: 25%;
+}
+
+#add textarea {
+    width: 25%;
+    resize: vertical;
+}
+
+#add .upload {
+  margin-top: 20px;
+}

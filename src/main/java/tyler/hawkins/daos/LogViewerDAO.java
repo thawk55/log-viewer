@@ -2,6 +2,7 @@ package tyler.hawkins.daos;
 
 import tyler.hawkins.models.Log;
 import tyler.hawkins.models.NewLog;
+import tyler.hawkins.models.PaginatedLogs;
 
 import javax.sql.DataSource;
 import java.sql.*;
@@ -37,7 +38,7 @@ public class LogViewerDAO {
         return log;
     }
 
-    public ArrayList<Log> getLogs(String search, int limit, int skip){
+    public PaginatedLogs getLogs(String search, int limit, int skip){
         String whereClause = parseSearch(search);
 
         String sql = String.format(
@@ -55,7 +56,20 @@ public class LogViewerDAO {
             throw new RuntimeException(e);
 
         }
-        return logs;
+        int totalSize = 0;
+        String countSQL = String.format(" SELECT COUNT(*) AS count " +
+                " FROM %s %s", tableName, whereClause);
+        try (Connection conn = dataSource.getConnection(); PreparedStatement ps = conn.prepareStatement(countSQL)) {
+            ResultSet rs = ps.executeQuery();
+            if(rs.next()){
+                totalSize = rs.getInt("count");
+            }
+            rs.close();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+
+        }
+        return new PaginatedLogs(logs, totalSize, skip, limit);
     }
 
     public Log insert(NewLog log){

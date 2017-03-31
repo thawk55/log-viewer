@@ -3,7 +3,11 @@
         <input ng-model="searchTerm" placeholder="Search for logs. Use the following notation: <column_type>:<search_word>; Example: level:Information; date and time:3/30;">
         <button class="btn btn-default" ng-click="search()" type="submit">Search</button>
     </form>
-    <div class="row log" ng-repeat="log in logs">
+    <button class="btn btn-default prevPage" ng-disabled="page == 1" ng-click="prevPage()">&lt;</button>
+    <span ng-show="pagination.logs.length > 0">{{1 + offset}}&ndash;{{getTopRange()}} of {{pagination.totalSize}} results </span>
+    <button class="btn btn-default nextPage" ng-disabled="!canGoToNextPage()" ng-click="nextPage()">&gt;</button>
+    <div class="row log" ng-repeat="log in pagination.logs">
+        <button class="btn btn-danger removeLogBtn" ng-click="removeLog(log.id)">X</button>
         <div class="col-md-4 logStats">
             <div class="row">
                 <span class="col-md-4">Level</span>
@@ -26,32 +30,8 @@
                 <span class="col-md-8">{{log.taskCategory}}</span>
             </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 logMessage">
             {{log.info}}
         </div>
     </div>
-    <!--<table class="table table-striped">
-        <thead>
-            <tr>
-                <th>Level</th>
-                <th>Date and Time</th>
-                <th>Source</th>
-                <th>Event Id</th>
-                <th>Task Category</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr ng-repeat="log in logs" ng-init="log.expanded = false" ng-click="log.expanded = !log.expanded">
-                <td>{{log.level}}</td>
-                <td>{{log.dateTime}}</td>
-                <td>{{log.source}}</td>
-                <td>{{log.eventId}}</td>
-                <td>{{log.taskCategory}}</td>
-                <td><span ng-class="log.expanded ? 'caret' : 'rotate-caret'"></span></td>
-                <div class="log" ng-show="log.expanded">{{log.info}}</div>
-            </tr>
-            
-        </tbody>
-    </table>-->
 </section>

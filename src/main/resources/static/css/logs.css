@@ -1,0 +1,44 @@
+#logs {
+    margin-top: 50px;
+    padding: 5px 30px;
+}
+
+#logs input {
+    width: 80%;
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 4px;
+    border-style: none;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#logs input:focus {
+    outline: #498fff solid 1px;
+}
+
+#logs .log {
+    border: 1px solid #777;
+    border-radius: 4px;
+    background: #eee;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+#logs .log .logStats {
+    border-right: 1px solid #777;
+}
+
+#logs .log .logMessage {
+    max-height: 100px;
+    overflow: auto;
+}
+
+#logs .log .removeLogBtn {
+    border-radius: 20px;
+    position: absolute;
+    font-size: 10px;
+    padding: 2px 6px;
+    left: 21px;
+    margin-top: 41px;
+}
